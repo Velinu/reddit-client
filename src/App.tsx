@@ -1,12 +1,13 @@
-import './App.css'
-import { Button } from './components/ui/button'
+import Footer from './components/footer'
 
 function App() {
 
   return (
-    <>
-      <Button variant={'link'} className='bg-transparent text-red-700'>Click me</Button>
-    </>
+    <div className='h-screen flex flex-col justify-between text-white'>
+      <div>header</div>
+      <div>cards</div>
+      <Footer />
+    </div>
   )
 }
 
